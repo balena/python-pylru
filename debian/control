@@ -1,0 +1,17 @@
+Source: python-pylru
+Section: python
+Priority: optional
+Maintainer: G. B. Versiani <guibv@yahoo.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://github.com/balena/python-pylru
+Vcs-Git: http://github.com/balena/python-pylru.git
+X-Python-Version: >= 2.7
+
+Package: python-pylru
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A least recently used (LRU) cache for Python
+ Pylru implements a true LRU cache along with several support classes.
+ .
+ The cache is efficient and written in pure Python.
